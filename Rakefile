@@ -15,10 +15,10 @@ task :generate do
 end
 
 # Usage:
-# $ rake
-# $ rake generate
-# $ rake publish
-# $ rake publish["Your comment here"]
+# $ bundle exec rake
+# $ bundle exec rake generate
+# $ bundle exec rake publish
+# $ bundle exec rake publish["Your comment here"]
 
 desc "Generate and publish blog to main/docs"
 task :publish, [:var] => [:generate] do |task, args|
