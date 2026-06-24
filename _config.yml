@@ -55,6 +55,8 @@ plugins:
 exclude: 
   - "README.md"
   - "Rakefile"
+  - vendor
+  - bundle
 
 webp:
   enabled: true
